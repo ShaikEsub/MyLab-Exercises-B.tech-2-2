@@ -1,0 +1,5 @@
+emp.data <- data.frame(emp_id = c(1:3),emp_name = c("Esub","Deepak","Joseph"),salary = c(5,7,10))
+emp.data$dept<-c("eee","mech","cse")
+emp.newdata<-data.frame(emp_id = c(6:7),emp_name = c("Sundeep","Hemanth"),salary = c(11,12),dept=c("csm","aid"))
+result<-rbind(emp.data,emp.newdata)
+print(result)

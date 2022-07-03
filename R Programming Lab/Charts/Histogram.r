@@ -1,0 +1,1 @@
+hist(mtcars$mpg, breaks = 12, col = "red")
